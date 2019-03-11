@@ -23,7 +23,7 @@ import practice.user.model.UserVo;
 /**
  * Servlet implementation class freeBoardServlet
  */
-@WebServlet("/BulletinServlet")
+//@WebServlet("/BulletinServlet")
 @MultipartConfig(maxFileSize=5 * 1024 *1024, maxRequestSize=5*5 * 1024 *1024)
 public class BulletinServlet extends HttpServlet {
 	

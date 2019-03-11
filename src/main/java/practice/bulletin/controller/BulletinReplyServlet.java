@@ -18,7 +18,7 @@ import practice.bulletin.service.IBulletinSerivce;
 /**
  * Servlet implementation class BulletinReplyServlet
  */
-@WebServlet("/BulletinReplyServlet")
+//@WebServlet("/BulletinReplyServlet")
 public class BulletinReplyServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

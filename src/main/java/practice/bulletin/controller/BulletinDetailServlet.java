@@ -22,7 +22,7 @@ import practice.comment.service.ICommentService;
 /**
  * Servlet implementation class BulletinDetailServlet
  */
-@WebServlet("/BulletinDetailServlet")
+//@WebServlet("/BulletinDetailServlet")
 public class BulletinDetailServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	IBoardSerivce boardService;

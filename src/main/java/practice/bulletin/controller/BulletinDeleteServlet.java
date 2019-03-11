@@ -18,7 +18,7 @@ import practice.bulletin.service.IBulletinSerivce;
 /**
  * Servlet implementation class BulletinDeleteServlet
  */
-@WebServlet("/BulletinDeleteServlet")
+//@WebServlet("/BulletinDeleteServlet")
 public class BulletinDeleteServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	IBoardSerivce boardService;

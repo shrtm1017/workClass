@@ -14,7 +14,6 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:config/spring/application-context.xml
-						classpath:config/spring/context-aop.xml
 						classpath:config/spring/context-datasource.xml
 						classpath:config/spring/context-transaction.xml
 					
@@ -32,8 +31,8 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:kr/or/ddit/config/spring/servlet-context.xml
-						 classpath:kr/or/ddit/config/spring/context-interceptor.xml
+			<param-value>classpath:config/spring/servlet-context.xml
+<!-- 						 classpath:config/spring/context-interceptor.xml -->
 			</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
